@@ -14,6 +14,7 @@
       font-size: 18px;
       padding: 5px;
       box-sizing: border-box;
+      font-family: 'DIN Next LT Arabic', Arial, sans-serif;
     }
 
     #submitButton {
@@ -49,14 +50,14 @@
   <input type="text" id="nameInput" placeholder="أكتب اسمك هنا">
   <button id="submitButton">Submit</button>
   <br>
-  <a href="#" download="design_with_name.png" id="downloadButton" style="display: none;">Download Image</a>
+  <a href="#" download="design_with_name.png" id="downloadButton" style="display: none;">تنزيل الصورة</a>
 
   <script>
     // Load the design onto the canvas
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
 
-    // Replace 'Eid.PNG' with the path to your PNG image
+    // Replace 'EidE.png' with the path to your PNG image
     var designImage = new Image();
     designImage.src = 'EidE.png';
 
