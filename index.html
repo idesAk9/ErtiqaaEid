@@ -42,12 +42,6 @@
       text-decoration: none;
     }
   </style>
-  <style>
-    @font-face {
-      font-family: 'Amiri';
-      src: url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
-    }
-  </style>
 </head>
 <body>
   <canvas id="canvas" width="1080" height="1350"></canvas>
@@ -62,7 +56,7 @@
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
 
-    // Replace 'EidE.png' with the path to your PNG image
+    // Replace 'Eid.PNG' with the path to your PNG image
     var designImage = new Image();
     designImage.src = 'EidE.png';
 
@@ -94,7 +88,7 @@
       var name = document.getElementById('nameInput').value;
 
       ctx.fillStyle = '#FFFFFF'; // Set the text color
-      ctx.font = '72px Amiri'; // Set the font style to 'Amiri'
+      ctx.font = '72px SF ARABIC'; // Set the font style
 
       // Replace the coordinates (x, y) with the desired position to overlay the name
       var x = 550;
